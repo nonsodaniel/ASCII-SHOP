@@ -20,6 +20,8 @@ module.exports = (req, res, next) => {
             max = 10,
             n = (parseInt(r, 10) % max) + 1;
 
+
+
         res.writeHead(302, {
             'Location': `https://unsplash.it/320/200?image=${n}`
         });
