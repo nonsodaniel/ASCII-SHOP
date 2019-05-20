@@ -1,17 +1,66 @@
 {
-  "name": "products-grid",
+  "name": "valmemorais",
+  "version": "0.1.0",
   "private": true,
-  "version": "0.0.1",
-  "description": "Build a grid of product items and ads",
-  "main": "server/index.js",
-  "scripts": {
-    "start": "json-server server/index.js --routes server/routes.json --middlewares server/handle-delay.js server/handle-ads.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "engines": {
+    "npm": "6.4.1",
+    "node": "8.12.0"
   },
-  "author": "",
-  "license": "",
   "dependencies": {
-    "cool-ascii-faces": "^1.3.4",
-    "json-server": "^0.9.6"
-  }
+    "bootstrap": "^4.3.1",
+    "datatables.net": "^1.10.19",
+    "draft-js": "^0.10.5",
+    "jquery": "^3.3.1",
+    "material-icons": "^0.3.0",
+    "material-icons-react": "^1.0.4",
+    "moment": "^2.24.0",
+    "nib-core": "^0.3.0",
+    "popper.js": "^1.14.7",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.3",
+    "react-block-ui": "^1.1.3",
+    "react-bs-datatable": "^1.2.6",
+    "react-datatable-nkg": "^2.0.0",
+    "react-dom": "^16.8.3",
+    "react-draft-wysiwyg": "^1.13.2",
+    "react-fontawesome": "^1.6.1",
+    "react-froala-wysiwyg": "^2.9.3",
+    "react-google-login": "^5.0.4",
+    "react-moment": "^0.9.2",
+    "react-preloading-screen": "^1.0.2",
+    "react-redux": "^6.0.1",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.1.5",
+    "react-swal": "^3.0.0",
+    "redux": "^4.0.1",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "sweetalert": "^2.1.2",
+    "sweetalert2": "^8.5.0",
+    "uuid": "^3.3.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nonsodaniel"
+  },
+  "author": "Ihedioha Chinonso Daniel",
+  "license": "ISC"
 }
